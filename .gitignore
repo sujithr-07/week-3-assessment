@@ -109,3 +109,32 @@ multirun/
 # Packaging
 *.whl
 pip-wheel-metadata/
+
+
+# Hugging Face downloaded models and cache
+.cache/
+cache/
+huggingface_cache/
+models/
+
+# Saved Transformer models
+saved_distilbert/
+distilbert_results/
+*.safetensors
+pytorch_model.bin
+*.pt
+*.pth
+
+# GloVe embeddings
+glove.6B.zip
+glove.6B.50d.txt
+
+# Downloaded datasets
+movie_reviews/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
