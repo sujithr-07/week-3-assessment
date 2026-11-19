@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Deep Learning Models
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.keras
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+*.engine
+*.plan
+
+# Model Checkpoints & Weights
+checkpoints/
+weights/
+saved_models/
+pretrained_models/
+
+# Datasets
+data/
+datasets/
+raw_data/
+processed_data/
+training_data/
+test_data/
+
+# Training Outputs
+runs/
+outputs/
+results/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+tensorboard/
+
+# GPU / CUDA
+*.cubin
+*.ptx
+*.fatbin
+*.nv
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Profiling
+.prof
+*.prof
+.profiler/
+
+# Hydra Configuration Outputs
+outputs/
+multirun/
+
+# Packaging
+*.whl
+pip-wheel-metadata/
